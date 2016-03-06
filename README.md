@@ -1,6 +1,8 @@
+<a href='https://bintray.com/nandhusriram/tomcat-vault/tomcat-vault/_latestVersion'><img src='https://api.bintray.com/packages/nandhusriram/tomcat-vault/tomcat-vault/images/download.svg'></a>
+
 Vault for your Tomcat
 ================================
-Tomcat vault is an utility that retrieves secrets at  runtime from the vault. Tomcat Vault is an implemented using HashiCorp's Vault.
+Tomcat vault is an utility that retrieves secrets at  runtime from the vault. Tomcat Vault is implemented using HashiCorp's Vault.
 
 TODO: Wiki page
 
@@ -15,7 +17,7 @@ http://vaultproject.io
 
 Bintray:
 
-Grab the latest binary (0.0.1) [here] ().
+Grab the latest binary (0.0.1) [here] (https://bintray.com/artifact/download/nandhusriram/tomcat-vault/org/januslabs/tomcat-vault/0.0.1/tomcat-vault.jar).
 
 Building
 ==========
