@@ -60,16 +60,20 @@ $ mvn clean install
 Configuration
 =============
  
- Please update the catalina.properties to include the property source like this.
+Please update the catalina.properties to include the property source like this.
  
- ###catalina.properties:
- org.apache.tomcat.util.digester.PROPERTY_SOURCE=org.januslabs.VaultPropertySource
+catalina.properties:
+====================
  
- ###Example:
+org.apache.tomcat.util.digester.PROPERTY_SOURCE=org.januslabs.VaultPropertySource
+ 
+Secret Lookup Example
+======================
  
  Looking up the  secret from Vault  for tomcat manager user.
  
- ###tomcat-users.xml
+ ###tomcat-users.xml:
+ 
  ```xml
  <user username="manager" password="${secret/manager/password}" roles="tomcat,manager-gui"/>
  ```
