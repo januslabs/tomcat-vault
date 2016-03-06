@@ -72,9 +72,11 @@ Secret Lookup Example
  
  Looking up the  secret from Vault  for tomcat manager user.
  
- ###tomcat-users.xml:
+###tomcat-users.xml:
  
  ```xml
- <user username="manager" password="${secret/manager/password}" roles="tomcat,manager-gui"/>
+ 
+<user username="manager" password="${secret/manager/password}" roles="tomcat,manager-gui"/>
+ 
  ```
  
