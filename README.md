@@ -17,7 +17,7 @@ http://vaultproject.io
 
 Bintray:
 
-Grab the latest binary (0.0.1) [here] (https://bintray.com/artifact/download/nandhusriram/tomcat-vault/org/januslabs/tomcat-vault/0.0.1/tomcat-vault.jar).
+Grab the latest binary (0.0.1) [here] (https://bintray.com/artifact/download/nandhusriram/tomcat-vault/org/januslabs/tomcat-vault/0.0.1/tomcat-vault-0.0.1.jar).
 
 Building
 ==========
