@@ -1,6 +1,6 @@
 Vault for your Tomcat
 ================================
-Tomcat vault is an utility that retrieves the password runtime from the vault. Vault is a Hashicorp product for managing secrets.
+Tomcat vault is an utility that retrieves secrets at  runtime from the vault. Tomcat Vault is an implemented using HashiCorp's Vault.
 
 TODO: Wiki page
 
