@@ -66,7 +66,10 @@ Configuration
  org.apache.tomcat.util.digester.PROPERTY_SOURCE=org.januslabs.VaultPropertySource
  
  ###Example:
+ 
  Looking up the  secret from Vault  for tomcat manager user.
+ 
  ###tomcat-users.xml
+ 
  <user username="manager" password="${secret/manager/password}" roles="tomcat,manager-gui"/>
  
