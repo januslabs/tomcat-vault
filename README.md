@@ -13,6 +13,12 @@ Vault Client
 
 Installation
 =============
+The easiest way to get started with this starter project is to fork, clone or download from the link below.
+
+git clone https://github.com/januslabs/tomcat-vault.git 
+
+You will also need to install Vault. This starter project assumes that you have a basic understanding of Vaults's operations.
+
 http://vaultproject.io
 
 Bintray:
@@ -53,4 +59,14 @@ $ mvn clean install
 ```
 Configuration
 =============
- TODO
+ 
+ Please update the catalina.properties to include the property source like this.
+ 
+ ###catalina.properties:
+ org.apache.tomcat.util.digester.PROPERTY_SOURCE=org.januslabs.VaultPropertySource
+ 
+ ###Example:
+ Looking up the  secret from Vault  for tomcat manager user.
+ ###tomcat-users.xml
+ <user username="manager" password="${secret/manager/password}" roles="tomcat,manager-gui"/>
+ 
