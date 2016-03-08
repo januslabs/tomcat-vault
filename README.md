@@ -31,7 +31,7 @@ Java Version: 1.8
 
 Basic Compile and Test
 ======================
-$ mvn clean install
+$ mvn clean install package
 
 ###Maven:
 
